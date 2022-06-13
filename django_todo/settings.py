@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # REMOVING THIS AND SETTING UP SECRET KEY DIFFERENT WAY AS PER INSTRUCTIONS ON SLACK FROM TUTOR
 # SECURITY WARNING: keep the secret key used in production secret!
-# SECRET_KEY = 'django-insecure-hkbv@^_9u=+v(iqc6u=ee$6jwesjnlkubqzikdr9q5$yrjjwb='
+
 import os
 if os.path.isfile('env.py'):
     import env
